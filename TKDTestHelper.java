@@ -1,9 +1,22 @@
+/**
+ * TKDTestHelper.java
+ * A class that displays questions and their answers for the written test for USTASV.
+ * Questions are sorted by belt level and multiple belts can be chosen at once.
+ * The program ends when the exit button is clicked.
+ * 
+ * @author Ian Youn
+ * @version 1.0
+ * @since 12/17/2020
+ */
+
+
 import java.awt.Font;
 import java.io.*;
 import java.util.*;
 
 public class TKDTestHelper {
 
+    /** ArrayLists for storing the questions of each belt. */
     public ArrayList<Question> questions = new ArrayList<Question>();
     public ArrayList<Question> wquestions = new ArrayList<Question>();
     public ArrayList<Question> yquestions = new ArrayList<Question>();
@@ -18,6 +31,8 @@ public class TKDTestHelper {
     public ArrayList<Question> rjquestions = new ArrayList<Question>();
     public ArrayList<Question> rsquestions = new ArrayList<Question>();
     public ArrayList<Question> bquestions = new ArrayList<Question>();
+    
+    /** booleans representing which belts are chosen.  */
     public boolean whiteb = false;
     public boolean yellowb = false;
     public boolean purpleb = false;
@@ -31,6 +46,11 @@ public class TKDTestHelper {
     public boolean redjb = false;
     public boolean redsb = false;
     public boolean blackb = false;
+
+    /**
+     * Creates a TKDTestHelper Object and calls the respective methods.
+     * @param args      The array of arguements in the console
+     */
     public static void main(String args[])
     {
         TKDTestHelper t = new TKDTestHelper();
@@ -39,6 +59,10 @@ public class TKDTestHelper {
         t.drawTitleScreen();
         t.toggleAndStart();
     }
+
+    /**
+     * Sets up the canvas for the application.
+     */
     public void setUpCanvas()
     {
         final int WIDTH = 1300;
@@ -52,6 +76,10 @@ public class TKDTestHelper {
 		StdDraw.setFont(font);
         StdDraw.enableDoubleBuffering();
     }
+
+    /**
+     * Adds questions from the Questions.txt file to the respective ArrayLists.
+     */
     public void addQuestions()
     {
         try
@@ -92,6 +120,10 @@ public class TKDTestHelper {
 
         }
     }
+
+    /**
+     * Draws the title screen of the application.
+     */
     public void drawTitleScreen()
     {
         StdDraw.clear();
@@ -152,6 +184,10 @@ public class TKDTestHelper {
         StdDraw.text(-590, 320-49*i, "Exit");
         StdDraw.show();
     }
+
+    /**
+     * Toggles each boolean and starts the question game for each belt selected.
+     */
     public void toggleAndStart()
     {
         while(true)
@@ -465,6 +501,10 @@ public class TKDTestHelper {
             }
         }
     }
+
+    /**
+     * Plays the question game for white belt.
+     */
     public void white()
     {
         StdDraw.clear(StdDraw.WHITE);
@@ -521,6 +561,10 @@ public class TKDTestHelper {
             }
         }
     }
+
+    /**
+     * Plays the question game for yellow belt.
+     */
     public void yellow()
     {
         StdDraw.clear(StdDraw.WHITE);
@@ -577,6 +621,10 @@ public class TKDTestHelper {
             }
         }
     }
+
+    /**
+     * Plays the question game for purple belt.
+     */
     public void purple()
     {
         StdDraw.clear(StdDraw.WHITE);
@@ -633,6 +681,9 @@ public class TKDTestHelper {
             }
         }
     }
+    /**
+     * Plays the question game for orange belt.
+     */
     public void orange()
     {
         StdDraw.clear(StdDraw.WHITE);
@@ -689,6 +740,10 @@ public class TKDTestHelper {
             }
         }
     }
+
+    /**
+     * Plays the question game for junior green belt.
+     */
     public void greenj()
     {
         StdDraw.clear(StdDraw.WHITE);
@@ -745,6 +800,10 @@ public class TKDTestHelper {
             }
         }
     }
+
+    /**
+     * Plays the question game for senior green belt.
+     */
     public void greens()
     {
         StdDraw.clear(StdDraw.WHITE);
@@ -801,6 +860,10 @@ public class TKDTestHelper {
             }
         }
     }
+
+    /**
+     * Plays the question game for junior blue belt.
+     */
     public void bluej()
     {
         StdDraw.clear(StdDraw.WHITE);
@@ -857,6 +920,10 @@ public class TKDTestHelper {
             }
         }
     }
+
+    /**
+     * Plays the question game for senior blue belt.
+     */
     public void blues()
     {
         StdDraw.clear(StdDraw.WHITE);
@@ -913,6 +980,10 @@ public class TKDTestHelper {
             }
         }
     }
+
+    /**
+     * Plays the question game for junior brown belt.
+     */
     public void brownj()
     {
         StdDraw.clear(StdDraw.WHITE);
@@ -969,6 +1040,10 @@ public class TKDTestHelper {
             }
         }
     }
+
+    /**
+     * Plays the question game for senior brown belt.
+     */
     public void browns()
     {
         StdDraw.clear(StdDraw.WHITE);
@@ -1025,6 +1100,10 @@ public class TKDTestHelper {
             }
         }
     }
+
+    /**
+     * Plays the question game for junior red belt.
+     */
     public void redj()
     {
         StdDraw.clear(StdDraw.WHITE);
@@ -1081,6 +1160,10 @@ public class TKDTestHelper {
             }
         }
     }
+
+    /**
+     * Plays the question game for senior red belt.
+     */
     public void reds()
     {
         StdDraw.clear(StdDraw.WHITE);
@@ -1137,6 +1220,10 @@ public class TKDTestHelper {
             }
         }
     }
+
+    /**
+     * Plays the question game for black belt.
+     */
     public void black()
     {
         StdDraw.clear(StdDraw.WHITE);
@@ -1193,11 +1280,21 @@ public class TKDTestHelper {
             }
         }
     }
+
+    /**
+     * Plays a special question game for black belt testers.
+     * Randonmly selects one question from each belt and uses
+     * the collection to play the question game.
+     */
     public void blackm()
     {
         StdDraw.clear(StdDraw.WHITE);
         StdDraw.clear();
     }
+
+    /**
+     * Exits the application and draws a thank you message.
+     */
     public void exit()
     {
         StdDraw.clear(StdDraw.WHITE);
