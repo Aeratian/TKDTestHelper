@@ -1,0 +1,64 @@
+White|What do you learn at this school?|Taekwondo Sir!
+White|What is Taekwondo?|The Korean Martial Art, Sir!
+White|What does Taekwondo mean?|Tae means foot or kicking, Kwon implies hand, fist, or punching, Do means art or way, Sir!
+White|What is the name of your school?|US Tae Kwon Do Academy, Sir! 
+White|What do you call your Master Instructor?|Sa Bum Nim, Sir!
+White|What is your Grandmaster's name?|Grandmaster J S Shim, Sir!
+White|How do you say, "How are you?" and "Thank You" in Korean?|"How are you?" is An Nyung Ha Shim Nee Ka and "Thank You" is Kam Sa Hap Nee Da, Sir!
+White|What is Home Rule number one?|Children shall greet their parents with "Hi Mom! Hi Dad!" when they enter the house and tell their parents "Good Bye" when they leave.
+Yellow|Why do you yell in Taekwondo?|To develop spiritual strength with concentration, power and confidence, Sir!
+Yellow|What is the bow?|The bow is a Korean form of greeting, Sir!
+Yellow|Why do you bow?|We bow to show sincerity of respect, Sir!
+Yellow|When do you bow?|We bow to the flags when we enter the Do Jang. We bow when we exit the Do Jang. We bow to the master instructor anytime and anywhere we see him. We bow to a higher rank belt and fellow Taekwondo students anytime or anywhere we meet them, Sir!
+Yellow|What does Chatyot mean?|Attention
+Yellow|What does Kyung Ryet mean?|Bow
+Yellow|What does Kook Ki mean?|Flag
+Yellow|What does Sa Bum Nim mean?|Master
+Yellow|What does Muk Nyum mean?|Meditation
+Yellow|What does Joon Bee mean?|Ready Stance
+Yellow|What does Kiyap mean?|Yelling
+Yellow|What does See Jahk mean?|Begin
+Yellow|What does Goh Mahn mean?|Stop
+Yellow|What does Do Jang mean?|Discipline School
+Yellow|What does She Uh mean?|Rest
+Yellow|What does Dweero Dorah mean?|Turn Around
+Yellow|What does Poomsae mean?|Form
+Orange|What is a POOR STUDENT?|The POOR STUDENT is lazy and simply expects results without sweat, Sir!
+Orange|What is a GOOD STUDENT?|The GOOD STUDENT has the desire to learn and to achieve goals, Sir! 
+Orange|What is an EXCELLENT STUDENT?|The EXCELLENT STUDENT not only learns techniques but gains knowledge of expressive ability. He/she accepts hard work and sweat, realizing results come from practice and co-practice with others, Sir!
+Orange|What is the BEST STUDENT?|The BEST STUDENT never gives up trying to learn what he or she needs to learn until it becomes second nature., both in technique and attitude, Sir! 
+Purple|Can you explain what makes power?|Power is made by weight and speed together with relaxation, concentration, and confidence, Sir!
+Purple|Where are the three attack points when you punch or kick?|The three attack points for punching and kicking are. High Section: In Joong. Middle Section: Solar Plexis. Low Section: Dan Jung or Nang Shin Sir!
+Purple|Why are there different colored belts?|The increase in knowledge and ability is symbolized by the darkness of the colors in the belts as one advances, Sir!
+GreenJ|How do you say "How are you?" and "Good bye" to someone staying, and "Good bye" to someone leaving in Korean?|Ahn Nyung Ha Shim Nee Ka means "How are You?". Ahn Nyung Hee Kei Sheep See Yo means "Good bye to someone staying". Ahn Nyung Hee Ka Sheep See Yo means "Good bye to someone leaving, Sir! 
+GreenJ|Why do we practice breath control?|To develop spiritual strength and endurance, Sir! 
+GreenJ|Do you know why you take a test?|We test to further our knowledge of Taekwondo. Through test preparation and the test experience we gain confidence. by performing under pressure and to let a qualified judge determine the increase of my knowledge, Sir! 
+GreenS|What are the three types of self defenses?|Physical self defense - We can protect our body with Taekwondo blocking, punching, and kicking techniques. Health self defense - By practicing Taekwondo, we can build our immune system. which will enable us to defend our body from getting cold and other illnesses. Social self defense - By earning higher belt ranks, we can build confidence which will help us to increase our self-esteem, Sir! 
+GreenS|How does Taekwondo differ form the other martial arts?|Karate originated in Japan and uses 50% leg and 50% hand techniques. Kung Fu originated in China and uses soft, circular motion techniques. Judo originated in Japan and uses throwing and falling techniques. Taekwondo originated in Korea and uses 80% leg and 20% hand techniques, Sir! 
+BlueJ|What are three basic points to remember in Taekwondo?|Taekwondo's three basic points are: Eye focus, Good balance, and Loud, strong Ki-yap, Sir! 
+BlueJ|What are the five points to remember when doing forms?|The five points to remember when doing forms are. Both hand twist together - one hand twists out while at the same time the other hand twists in. Both hands pull together - the two hands pull together at the same time. Straight line - your hand should move in a straight line towards your target. Waist power - each block or punch should be delivered using waist power. Use accurate distance and angle with explosive impact power, Sir! 
+BlueS|What is the advanced students Code of Honor?|Respect each other, Be honest, Be patient with other, Help each other. Always stand by the weak, Be loyal to yourself and your family. Obey and be loyal to your instructor, Be loyal to your Dojang, Sir! 
+BlueS|Can you explain why you practice "one by one" fighting and "one step" sparring?|We practice one by one fighting and one step sparring. to develop effective offense and defense, control of distance, precision, speed and reaction time, Sir! 
+BlueS|Why do you practice breaking techniques?|We practice breaking techniques to develop power, precision, concentration,. and to actually test the effectiveness of various techniques, Sir! 
+BrownJ|Do you know why stretching exercises are necessary in Taekwondo?|Stretching exercises are necessary because flexibility, the result of stretching, promotes youthful agility and a sense of well being. in Taekwondo flexibility allows greater speed in execution of techniques (and so more power). and a greater range of possible targets on an opponent, Sir! 
+BrownJ|What part of the foot do you use in kicks?|In the front kick-you use the ball of the foot or instep. In the roundhouse kick-you use the ball of the foot or instep. In the side kick, you use the side back heel. In the back kick, you use the side back heel. In the back hook kick (wheel kick), use the back heel or ball of the foot. In the in-to-out, out-to-in kick, use the ball of the foot or bottom heel of foot, Sir! 
+BrownS|What is the meaning of the American Flag?|There are thirteen stripes in American flag. The stripes represent the 13 original colonies. The stars represent the 50 states. The colors stand for: Red - courage, war and blood, White- truth, freedom, and purity, Blue -justice, loyalty, and ambition, Sir! 
+BrownS|Why do you meditate?|We meditate because meditation is necessary to gather one's spiritual energy(Gi). It helps us to achieve deeper insight, greater awareness, and a feeling of calm relaxation. This serenity can become a habit even in highly stressful situations. In such situations, with the mind cleared of unnecessary distraction, self control is maintained and the proper action can be taken. Also meditation becomes concentration when action is required, Sir! 
+RedJ|Do you know the five requisites of physical development in Taekwondo?|The five requisites are: contact with natural surroundings,. contact with diverse physical conditions,. performing suitable exercises,. eating suitable nourishment,. getting proper amount of rest, Sir! 
+RedJ|Can you explain the meaning of each color belt?|White belt - signifies something heavier than no belt and the readiness to change color,. Yellow belt-signifies the sunrise and opening to receive knowledge,. Purple belt-signifies royalty and readiness to receive higher knowledge,. Orange helt-signifies sfrength and endurance to move onto higher level,. Green belt-signifies the spring, starting to grow and beginning,. Blue belt-signifies the sky, youth, and ambition,. Brown belt-signifies the earth or mountains and developing a strong foundation,. Red belt-represents the sun-its brightness and energy-the physical acts of the individual,. Black belt-contains all colors signifting the deepest and most dense knowledge, the accumulation of all preceding levels, Sir! 
+RedS|Do you know the names of poomses from kicho irbo through your own poomse?|Yes, Sir! 
+RedS|What is USTKD rule #1?|Students are to bow respectfully to the flags when entering or leaving the academy and upon the first encounter with your instructor.
+RedS|What is USTKD rule #2?|Address your instructor as Sa-Bum-Nim and respond to any any questions or commands from your instructor with Yes Sir or No Sir
+RedS|What is USTKD rule #3?|Discipline yourself to show respect to your fellow students that hold a higher rank belt.
+RedS|What is USTKD rule #4?|Students should notify instructors in advance of any absence longer than a week period
+RedS|What is USTKD rule #5?|Horseplay or disrespect of any kind will not be permitted.
+RedS|What is USTKD rule #6?|No food or soft drinks will be permitted during class.
+RedS|What is USTKD rule #7?|Students will wear clean Do Bok(uniform) at all times.
+RedS|What is USTKD rule #8?|No chewing gum or smoking allowed in the academy
+RedS|What is USTKD rule #9?|Protective equipment is mandatory during sparring.
+RedS|What is USTKD rule #10?|Arrive 10 minutes before the class is to start and warm-up prior to class.
+RedS|What is USTKD rule #11?|Unnecessary noise, talking, or laughing during class will not be permitted.
+RedS|What is USTKD rule #12?|No sparring or breaking is allowed without the instructor's supervision.
+RedS|What is USTKD rule #13?|Remember that Tae Kwon Do is for your health, self defense, and mental discipline all of which require constant practice. 
+Black|Give a brief history of Taekwondo.|Taekwondo is the name of the martial art that was created and developed in Korea over the course of more than 2,000 years. Taekwondo is an art of self-defense that has been scientifically calculated for maximum efficiency of motion. and therefore proven to be highly effective. 
+Black|What are the five Tae Kwon Do spirits?|Courtesy - Be polite  Distinguish the instructor from the student, senior, from junior and show respect for the others. Integrity - Be able to distinguish what is right from what is wrong and have a conscience to feel guilt. Perseverance - Set a goal and achieve it regardless of the difficulty. Self-Control - Whether conducting ones personal affairs or learning, have a sense of control over what you do. Indomitable Spirit - Have courage even when pitted against overwhelming odds. You are a victor when you have done your best, even if you lose. 
