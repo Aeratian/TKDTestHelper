@@ -140,10 +140,10 @@ public class TKDTestHelper {
         StdDraw.text(0, 320-49*i, "Yellow");
         i++;
         StdDraw.setPenColor(StdDraw.WHITE);
-        StdDraw.text(0, 320-49*i, "Purple");
+        StdDraw.text(0, 320-49*i, "Orange");
         i++;
         StdDraw.setPenColor(StdDraw.WHITE);
-        StdDraw.text(0, 320-49*i, "Orange");
+        StdDraw.text(0, 320-49*i, "Purple");
         i++;
         StdDraw.setPenColor(StdDraw.WHITE);
         StdDraw.text(0, 320-49*i, "Junior Green");
@@ -209,8 +209,10 @@ public class TKDTestHelper {
                     }
                     if(!whiteb)
                     {
-                        StdDraw.clear();
-                        drawTitleScreen();
+                       
+                        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+                        StdDraw.filledRectangle(475, 320-49*i, 15, 15);
+                        StdDraw.show();
                         StdDraw.pause(250);
                     }
                 }
@@ -227,26 +229,10 @@ public class TKDTestHelper {
                     }
                     if(!yellowb)
                     {
-                        StdDraw.clear();
-                        drawTitleScreen();
-                        StdDraw.pause(250);
-                    }
-                }
-                i++;
-                if(x>=-500&&x<=500&&y>=300-49*i&&y<=340-49*i)
-                {
-                    purpleb = !purpleb;
-                    if(purpleb)
-                    {
-                        StdDraw.setPenColor(StdDraw.ORANGE);
+                        
+                        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
                         StdDraw.filledRectangle(475, 320-49*i, 15, 15);
                         StdDraw.show();
-                        StdDraw.pause(250);
-                    }
-                    if(!purpleb)
-                    {
-                        StdDraw.clear();
-                        drawTitleScreen();
                         StdDraw.pause(250);
                     }
                 }
@@ -263,8 +249,30 @@ public class TKDTestHelper {
                     }
                     if(!orangeb)
                     {
-                        StdDraw.clear();
-                        drawTitleScreen();
+                       
+                        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+                        StdDraw.filledRectangle(475, 320-49*i, 15, 15);
+                        StdDraw.show();
+                        StdDraw.pause(250);
+                    }
+                }
+                i++;
+                if(x>=-500&&x<=500&&y>=300-49*i&&y<=340-49*i)
+                {
+                    purpleb = !purpleb;
+                    if(purpleb)
+                    {
+                        StdDraw.setPenColor(StdDraw.ORANGE);
+                        StdDraw.filledRectangle(475, 320-49*i, 15, 15);
+                        StdDraw.show();
+                        StdDraw.pause(250);
+                    }
+                    if(!purpleb)
+                    {
+                        
+                        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+                        StdDraw.filledRectangle(475, 320-49*i, 15, 15);
+                        StdDraw.show();
                         StdDraw.pause(250);
                     }
                 }
@@ -281,8 +289,10 @@ public class TKDTestHelper {
                     }
                     if(!greenjb)
                     {
-                        StdDraw.clear();
-                        drawTitleScreen();
+                        
+                        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+                        StdDraw.filledRectangle(475, 320-49*i, 15, 15);
+                        StdDraw.show();
                         StdDraw.pause(250);
                     }
                 }
@@ -299,8 +309,10 @@ public class TKDTestHelper {
                     }
                     if(!greensb)
                     {
-                        StdDraw.clear();
-                        drawTitleScreen();
+                        
+                        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+                        StdDraw.filledRectangle(475, 320-49*i, 15, 15);
+                        StdDraw.show();
                         StdDraw.pause(250);
                     }
                 }
@@ -317,8 +329,10 @@ public class TKDTestHelper {
                     }
                     if(!bluejb)
                     {
-                        StdDraw.clear();
-                        drawTitleScreen();
+                        
+                        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+                        StdDraw.filledRectangle(475, 320-49*i, 15, 15);
+                        StdDraw.show();
                         StdDraw.pause(250);
                     }
                 }
@@ -335,8 +349,10 @@ public class TKDTestHelper {
                     }
                     if(!bluesb)
                     {
-                        StdDraw.clear();
-                        drawTitleScreen();
+                        
+                        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+                        StdDraw.filledRectangle(475, 320-49*i, 15, 15);
+                        StdDraw.show();
                         StdDraw.pause(250);
                     }
                 }
@@ -353,8 +369,10 @@ public class TKDTestHelper {
                     }
                     if(!brownjb)
                     {
-                        StdDraw.clear();
-                        drawTitleScreen();
+                        
+                        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+                        StdDraw.filledRectangle(475, 320-49*i, 15, 15);
+                        StdDraw.show();
                         StdDraw.pause(250);
                     }
                 }
@@ -371,8 +389,10 @@ public class TKDTestHelper {
                     }
                     if(!brownsb)
                     {
-                        StdDraw.clear();
-                        drawTitleScreen();
+                        
+                        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+                        StdDraw.filledRectangle(475, 320-49*i, 15, 15);
+                        StdDraw.show();
                         StdDraw.pause(250);
                     }
                 }
@@ -389,8 +409,10 @@ public class TKDTestHelper {
                     }
                     if(!redjb)
                     {
-                        StdDraw.clear();
-                        drawTitleScreen();
+                       
+                        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+                        StdDraw.filledRectangle(475, 320-49*i, 15, 15);
+                        StdDraw.show();
                         StdDraw.pause(250);
                     }
                 }
@@ -407,8 +429,9 @@ public class TKDTestHelper {
                     }
                     if(!redsb)
                     {
-                        StdDraw.clear();
-                        drawTitleScreen();
+                        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+                        StdDraw.filledRectangle(475, 320-49*i, 15, 15);
+                        StdDraw.show();
                         StdDraw.pause(250);
                     }
                 }
@@ -425,8 +448,9 @@ public class TKDTestHelper {
                     }
                     if(!blackb)
                     {
-                        StdDraw.clear();
-                        drawTitleScreen();
+                        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+                        StdDraw.filledRectangle(475, 320-49*i, 15, 15);
+                        StdDraw.show();
                         StdDraw.pause(250);
                     }
                 }
@@ -434,6 +458,9 @@ public class TKDTestHelper {
                 if(x>=-500&&x<=500&&y>=300-49*i&&y<=340-49*i)
                 {
                     blackm();
+                    drawTitleScreen();
+                    toggleAndStart();
+                    break;
                 }
                 if(x<=-540&&x>=-640&&y>=295-49*i&&y<=345-49*i)
                 {
@@ -1288,8 +1315,645 @@ public class TKDTestHelper {
      */
     public void blackm()
     {
-        StdDraw.clear(StdDraw.WHITE);
+        Question q = wquestions.get((int)(Math.random()*wquestions.size()));
         StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        Font font = new Font("Arial", Font.BOLD, 20);
+        StdDraw.setFont(font);
+        String str = q.getQuestion();
+        StringTokenizer st = new StringTokenizer(str);
+        int j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[|\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "See Answer");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        str = q.getAnswer();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[.\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "Next Question");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        q = yquestions.get((int)(Math.random()*yquestions.size()));
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        font = new Font("Arial", Font.BOLD, 20);
+        StdDraw.setFont(font);
+        str = q.getQuestion();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[|\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "See Answer");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        str = q.getAnswer();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[.\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "Next Question");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        q = oquestions.get((int)(Math.random()*oquestions.size()));
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        font = new Font("Arial", Font.BOLD, 20);
+        StdDraw.setFont(font);
+        str = q.getQuestion();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[|\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "See Answer");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        str = q.getAnswer();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[.\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "Next Question");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        q = pquestions.get((int)(Math.random()*pquestions.size()));
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        font = new Font("Arial", Font.BOLD, 20);
+        StdDraw.setFont(font);
+        str = q.getQuestion();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[|\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "See Answer");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        str = q.getAnswer();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[.\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "Next Question");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        q = gjquestions.get((int)(Math.random()*gjquestions.size()));
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        font = new Font("Arial", Font.BOLD, 20);
+        StdDraw.setFont(font);
+        str = q.getQuestion();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[|\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "See Answer");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        str = q.getAnswer();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[.\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "Next Question");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        q = gsquestions.get((int)(Math.random()*gsquestions.size()));
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        font = new Font("Arial", Font.BOLD, 20);
+        StdDraw.setFont(font);
+        str = q.getQuestion();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[|\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "See Answer");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        str = q.getAnswer();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[.\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "Next Question");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        q = bjquestions.get((int)(Math.random()*bjquestions.size()));
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        font = new Font("Arial", Font.BOLD, 20);
+        StdDraw.setFont(font);
+        str = q.getQuestion();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[|\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "See Answer");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        str = q.getAnswer();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[.\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "Next Question");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        q = bsquestions.get((int)(Math.random()*bsquestions.size()));
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        font = new Font("Arial", Font.BOLD, 20);
+        StdDraw.setFont(font);
+        str = q.getQuestion();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[|\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "See Answer");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        str = q.getAnswer();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[.\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "Next Question");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        q = brjquestions.get((int)(Math.random()*brjquestions.size()));
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        font = new Font("Arial", Font.BOLD, 20);
+        StdDraw.setFont(font);
+        str = q.getQuestion();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[|\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "See Answer");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        str = q.getAnswer();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[.\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "Next Question");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        q = brsquestions.get((int)(Math.random()*brsquestions.size()));
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        font = new Font("Arial", Font.BOLD, 20);
+        StdDraw.setFont(font);
+        str = q.getQuestion();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[|\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "See Answer");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        str = q.getAnswer();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[.\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "Next Question");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        q = rjquestions.get((int)(Math.random()*rjquestions.size()));
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        font = new Font("Arial", Font.BOLD, 20);
+        StdDraw.setFont(font);
+        str = q.getQuestion();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[|\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "See Answer");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        str = q.getAnswer();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[.\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "Next Question");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        q = rsquestions.get((int)(Math.random()*rsquestions.size()));
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        font = new Font("Arial", Font.BOLD, 20);
+        StdDraw.setFont(font);
+        str = q.getQuestion();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[|\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "See Answer");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        str = q.getAnswer();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[.\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "Next Question");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        q = bquestions.get((int)(Math.random()*bquestions.size()));
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        font = new Font("Arial", Font.BOLD, 20);
+        StdDraw.setFont(font);
+        str = q.getQuestion();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[|\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "See Answer");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        str = q.getAnswer();
+        st = new StringTokenizer(str);
+        j = 0;
+        while(st.hasMoreTokens())
+        {
+            StdDraw.text(0, 300-50*j, st.nextToken("[.\\]"));
+            j++;
+        }
+        StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+        StdDraw.filledRectangle(0, -250, 340, 50);
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.text(0, -250, "Next Question");
+        StdDraw.show();
+        while(true)
+        {
+            if(StdDraw.isMousePressed()&&StdDraw.mouseX()>=-340&&StdDraw.mouseX()<=340&&StdDraw.mouseY()>=-300&&StdDraw.mouseY()<=-200)
+            {
+                StdDraw.pause(250);
+                break;
+            }
+        }
+        StdDraw.clear();
+        StdDraw.show();
     }
 
     /**
