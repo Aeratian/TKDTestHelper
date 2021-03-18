@@ -3,20 +3,10 @@ public class Question
     private String question;
     private String belt;
     private String answer;
-    public Question (String b, String q, String a)
-    {
+    public Question (String b, String q, String a) {
         question = q;
         belt = b;
         answer = a;
-    }
-    public void displayQuestion ()
-    {
-        
-    }
-
-    public void sayQuestion ()
-    {
-
     }
 
     public String getQuestion() {
